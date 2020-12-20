@@ -14,6 +14,7 @@ import { CartComponent } from './cart/cart.component';
 import { CartItemComponent } from './cart-item/cart-item.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { MgrDashboardComponent } from './mgr-dashboard/mgr-dashboard.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { MgrDashboardComponent } from './mgr-dashboard/mgr-dashboard.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     ClarityModule,
+    HttpClientModule,
     FormsModule
   ],
   providers: [],
